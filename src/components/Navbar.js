@@ -40,8 +40,8 @@ export default function Navbar(props) {
             <div className="bg-danger rounded mx-2" onClick={() => {props.toggleMode('danger')}} style={{height:'30px', width:'30px', cursor:'pointer'}}></div>
             <div className="bg-success rounded mx-2" onClick={() => {props.toggleMode('success')}} style={{height:'30px', width:'30px', cursor:'pointer'}}></div>
             <div className="bg-warning rounded mx-2" onClick={() => {props.toggleMode('warning')}} style={{height:'30px', width:'30px', cursor:'pointer'}}></div>
-            <div className="bg-light rounded mx-2" onClick={() => {props.toggleMode('light')}} style={{height:'30px', width:'30px', cursor:'pointer'}}></div>
-            <div className="bg-dark rounded mx-2" onClick={() => {props.toggleMode('dark')}} style={{height:'30px', width:'30px', cursor:'pointer'}}></div>
+            {/* <div className="bg-light rounded mx-2" onClick={() => {props.toggleMode('light')}} style={{height:'30px', width:'30px', cursor:'pointer'}}></div>
+            <div className="bg-dark rounded mx-2" onClick={() => {props.toggleMode('dark')}} style={{height:'30px', width:'30px', cursor:'pointer'}}></div> */}
           </div>
           <form className="d-flex mx-2" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
